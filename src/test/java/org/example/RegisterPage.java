@@ -24,6 +24,7 @@ public class RegisterPage<clickOnElement>
     {
         driver.findElement(by).click();
     }
+	
 
     public static String getTextFromElement(By by) {
         return driver.findElement(by).getText();
